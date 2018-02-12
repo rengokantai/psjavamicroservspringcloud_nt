@@ -33,3 +33,17 @@ steps:
 - See POM dependency on spring-cloud-config-server
 - Add @EnableConfigServer annotation.
 - create application properties(YAML) with server port
+
+
+### 5 Creating a Config Server for Local Files
+src/main/resources, create `config` folder
+add ```app1.peoperties```
+visit
+```
+localhost:8888/app1/default
+```
+application.properties:
+```
+server.port=8080
+spring.profiles.active=native
+```
