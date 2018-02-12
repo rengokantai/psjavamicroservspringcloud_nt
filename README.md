@@ -17,3 +17,10 @@ localhost:8080/beans
 localhost:8080/health
 localhost:8080/mappings,trace
 ```
+## 3. Simplifying Environment Management with Centralized Configuration
+### 3 Problems with the Status Quo
+Problems
+- Local configuration files fall out of sync
+- No history of changes with env variables
+- Configuration changes require restart
+- Sensitive info
