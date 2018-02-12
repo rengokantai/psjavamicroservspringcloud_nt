@@ -24,3 +24,12 @@ Problems
 - No history of changes with env variables
 - Configuration changes require restart
 - Sensitive info
+
+### 4 Create a Config Server
+HTTP access to git or file based configurations
+
+steps:
+- generate scaffold folding
+- See POM dependency on spring-cloud-config-server
+- Add @EnableConfigServer annotation.
+- create application properties(YAML) with server port
