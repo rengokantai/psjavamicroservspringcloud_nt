@@ -47,3 +47,16 @@ application.properties:
 server.port=8080
 spring.profiles.active=native
 ```
+
+## 5. Securing Your Microservices
+### 8 DEMO: Authorization
+```
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-oauth2</artifactId>
+</dependency>
+<dependency>
+  <groupId>org.springframework.cloud</groupId>
+  <artifactId>spring-cloud-starter-security</artifactId>
+</dependency>
+```
